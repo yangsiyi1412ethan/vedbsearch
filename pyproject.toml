@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vedbsearch"          # 这里改成你希望的包名
+version = "0.1.1"
+description = "vedb-search client for accessing VeDB through LangChain VectorStores"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name="SiYi Yang", email="yangsiyi.1412ethan@bytedance.com" }
+]
+dependencies = [
+    "mysql-connector-python>=9.3.0"
+]
+requires-python = ">=3.8"
+
+[project.urls]
+"Homepage" = "https://github.com/yangsiyi1412ethan/vedbsearch"
+"Bug Tracker" = "https://github.com/yangsiyi1412ethan/vedbsearch/issues"
